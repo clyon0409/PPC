@@ -8,37 +8,83 @@
 </head>
 <body>
 	<div id="header">
-		<!-- <img id="logo" src="logo.png" alt="PPC logo"> -->
+		<img id="logo" src="logo.png" alt="PPC logo">
 		<h1>CALL TOLL FREE 1-800-772-5832</h1>
+		<div class="nav_bar">
+			<table>
+				<tr>
+					<th></th>
+					<th>HOME</th>
+					<th>MARKET SEGMENTS</th>
+					<th>SERVICES</th>
+					<th>PRODUCTS</th>
+					<th>PROMOTIONS</th>
+					<th>MARKET AREA</th>
+					<th>INFORMATION</th>
+					<th></th>
+				</tr>
+			</table>
+		</div>
 	</div>
-	<div id="nav_bar">
-		<table>
-			<tr>
-				<th>HOME</th>
-				<th>MARKET SEGMENTS</th>
-				<th>SERVICES</th>
-				<th>PRODUCTS</th>
-				<th>PROMOTIONS</th>
-				<th>MARKET AREA</th>
-				<th>INFORMATION</th>
-			</tr>
-		</table>
-	</div>
+
+<!--   ************* CONTENT **************** -->
 	<div id="content">
 		<img  id="bldg" src="main_pic.png" alt="picture of company">
 		<div class="co_info">
 			<h3>ABOUT PPC LUBRICANTS</h3>
-			<h4>A heritage of Specializing in Lubricants</h4>
-			<p>company background</p>
+			<h4>A Heritage of Specializing in Lubricants</h4>
+			<p class="history">For over 40 years, <span class="emphasize">PPC Lubricants</span> has earned a solid reputaton for offering high quality products and services that improve your business. How? By providing customer retention programs&frasl;products for Installers and products and services that increase equipment life and enhance the efficiency of all equipment whether it be Automotive, Heavy Duty Commercial, or Industrial in its application. </p>
+			<p></p>
+			<p class="history">At <span class="emphasize">PPC Lubricants</span>, we take tremendous pride in providing the highest level of Service. When you call our toll free numbers you will be greeted by a start that is knowledgeable and experienced in the various lubricants that we carry. Each customer service representatve receives industry specific training on the latest advancements in lubrication technology including changing equipment and OEM requirements. </p>
 		</div>
-		<input type="button" src="logo.png">
-		<h6>PPC now has Bulk Delivery/Squirt Fill capabilities for DEF</h6>
+		<div id="bulk_delivery">
+			<button id="bulk_del_btn" type="button"></button>
+			<h6>PPC now has Bulk Delivery&frasl;Squirt Fill 
+				capabilities for DEF</h6>
+		</div>
 		<table>
 			<tr>
-				<td>automotive<img src="automotive.png" alt="automotive picture"></td>
-				<td>commercial<img src="commercial.png" alt="commercial picture"></td>
-				<td>industrial<img src="industrial.png" alt="industrial picture"</td>
-				<td>diesel exhausst fluid<img src="diesel.png"></td>
+				<th>AUTOMOTIVE</th>
+				<td class="empty_cell"></td>
+				<th>COMMERCIAL</th>
+				<td class="empty_cell"></td>
+				<th>INDUSTRIAL</th>
+				<td class="empty_cell"></td>
+				<th>DIESEL EXHAUST FLUID</th>
+			</tr>
+
+			<tr id="table_pic">
+				<td id="auto_pic" class="pic_size"></td>
+				<td class="empty_cell"></td>
+				<td id="comm_pic" class="pic_size"></td>
+				<td class="empty_cell"></td>
+				<td id="ind_pic" class="pic_size"></td>
+				<td class="empty_cell"></td>
+				<td id="diesal_pic" class="pic_size"></td>
+			</tr>
+
+			<tr id="table_desc">
+				<td>
+					<p>The Automotive Market requires a different set of tools in order to succeed. PPC Lubricants offers various programs that aro custornked to each customer in &hellip;
+					</p>
+					<img class ="arrow" src="read_more_arrow.png" alt="read more link">
+				</td>
+				<td class="empty_cell"></td>
+				<td>
+					<p>PPC lubricants has been in business of supporting the Commercial market for over 40 years! Tho most importart thing that we have learned is that &hellip;
+					</p>
+					<img class ="arrow" src="read_more_arrow.png" alt="read more link">
+				</td>
+				<td class="empty_cell"></td>
+				<td>
+					<p>Regardless of the industrial market segment that you operate in: Metal, Forestry, Gas or Power Production. Foods, Plastics or almost any other f,eed your lubricant &hellip;</p>
+					<img class ="arrow" src="read_more_arrow.png" alt="read more link">
+				</td>
+				<td class="empty_cell"></td>
+				<td>
+					<p>As governmental regulations on emmissions from diesel engines become more severe, it has forced vehicle manufacturers to evaluate and adopt new technologies in order to &hellip; </p>
+					<img class ="arrow" src="read_more_arrow.png" alt="read more link">
+				</td>
 			</tr>
 		</table>
 	</div>
